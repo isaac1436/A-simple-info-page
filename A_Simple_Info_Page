@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>FreeCodeCampChallenges/TributePage.com</title>
+    
+    
+    <style>
+        body {background: linear-gradient(35deg, #8d9999, #ffffff);
+        display: flex; 
+        justify-content: center;}
+
+        main{border: 20px,solid,#ccc,; 
+        background: linear-gradient(35deg, #ffffff,  #8d9999);
+        display: flex;
+        flex-direction: column;
+        
+        }
+        
+        #image{max-width: 100%; height:auto; }
+        
+        #title{font-family: cursive;}
+        
+        section{width: 75vmin;
+        font-family: cursive;
+        font-size: xx-large;
+        }
+        
+        #tribute-info{font-family: cursive;
+        font-size: xx-large; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        
+        footer{position: }
+    </style>
+
+
+</head>
+
+<body>
+    <main>
+        
+        <header>
+            <center><h1 id="title" tabindex="1">Damon Kane</h1></center>
+        </header>    
+        <center>
+        <figure id="img-div" tabindex="2">
+            <img src="book_cover.jpg" id="image">
+            <figcaption tabindex="3">Damon's most succesful book yet?</figcaption>
+        </figure>
+        </center>
+
+        <section>
+        <ul id="tribute-info" tabindex="4">
+            <li tabindex="5"><strong>2000-</strong> Damon was born in Nigeria</li>
+            <li tabindex="6"><strong>2003-</strong> Damon completes preschool</li>
+            <li tabindex="7"><strong>2008-</strong> Damon completes grade school</li>
+            <li tabindex="8"><strong>2011-</strong> Damon completes middle school</li>
+            <li tabindex="9"><strong>2015-</strong> Damon completes high school</li>
+            <li tabindex="10"><strong>2017-</strong> Damon starts University </li>
+            <li tabindex="11"><strong>2020-</strong> Damon starts writing Behind Our Masks</li>
+        </ul>
+        <p>To veiw extra info about The author Damon Kane <a href="https://www.webnovel.com/book/behind-our-masks_19145868206575605" target="_blank">Click Here</a></p>
+        </section>
+
+        <footer tabindex="12"><hr><center>&copy;DamonKane2021</center></footer>
+    </main>
+    
+
+
+
+</body>
